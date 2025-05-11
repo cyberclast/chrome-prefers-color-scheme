@@ -1,0 +1,17 @@
+{
+    "name": "Prefers Color Scheme Toggle",
+    "description": "Toggle `prefers-color-scheme` using Chrome Debugger for easier front-end development in dark/light modes.",
+    "version": "0.4.0",
+    "manifest_version": 3,
+    "action": {
+        "default_title": "Toggle Color Scheme",
+        "default_icon": {
+            "16": "icons/yellow-sun-16.png",
+            "32": "icons/yellow-sun-32.png",
+            "128": "icons/yellow-sun-128.png"
+        }
+    },
+    "permissions": ["debugger", "storage", "activeTab", "scripting"],
+    "host_permissions": ["<all_urls>"],
+    "background": { "service_worker": "service_worker.js" }
+}
