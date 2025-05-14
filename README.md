@@ -4,7 +4,7 @@ Switches the current tab between **light** and **dark** modes by temporarily ove
 
 -   **Who it’s for:** front-end developers who need to test both schemes without wiring a Tailwind “`class`” toggle or changing the OS setting to check colors.
 -   **How it works:** the extension attaches Chrome’s DevTools **`debugger` API** and sends `Emulation.setEmulatedMedia`, just like the “Rendering → Emulate CSS media” in the dev panel.
--   **Open source:** <https://github.com/mechanifab/chrome-prefers-color-scheme>
+-   **Open source:** <https://github.com/cyberclast/chrome-prefers-color-scheme>
 
 | State                               | Toolbar icon | Click action                                      |
 | ----------------------------------- | ------------ | ------------------------------------------------- |
